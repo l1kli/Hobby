@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import "nullstyle.css";
+
+html{
+	background: #0F0F0F;
+	font-family: Maler;
+	color: #fff;
+}
+a{
+	display: flex;
+}
+.header {
+	&__head {
+		font-size: 36px;
+		display: flex;
+		padding: 81px 0px 0px 79px;
+	}
+}
+.text1 {
+	font-family: inter;
+	color: #fff;
+}
+.text2 {
+	color: #fff;
+}
+.text3 {
+	font-family: inter;
+	color: #FD7E14;
+}
+
+.arrow {
+	&__left {
+		padding: 0px 0px 10px 225px;
+		background-image: url('../img/arrow-left.png');
+		background-repeat: no-repeat;
+  		background-position: center center;
+		height: 48px;
+		width: 48px;
+	}
+	&__right {
+		background-image: url('../img/arrow-right.png') ;
+		background-repeat: no-repeat;
+  		background-position: center center;
+		height: 48px;
+		width: 48px;
+		padding: 0 0 10px 38px;
+
+	}
+}
+
+input{
+	border: 1px solid #2C2C2C;
+	border-radius: 19px;
+	width: 410px;
+	height: 48px;
+	color: #fff;
+	font-size: 20px;
+	font-family: inter;
+	text-align: center;
+	margin: 0 0 75px 350px;
+	background: #0F0F0F;
+	background: url('../img/search.png') no-repeat 12px 4px;
+}
+
+.message {
+	background: url('../img/message.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 40px;
+	width: 40px;
+	margin: 0px 65px 0px 235px;
+}
+.notification {
+	background: url('../img/notification.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 40px;
+	width: 40px;
+	margin: 0px 91px 0px 0px;
+}
+
+.avatar{
+	background: url('../img/avatar.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 56px;
+	width: 64px;
+	border: 2px solid #FF7A00;
+	border-radius: 50%;
+}
+
+
+.cinema_1 {
+	background: url('../img/cinema_1.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 1305px;
+	height: 402px;
+	border-radius: 27px;
+	margin: 0px 0px 0px 424px;
+}
+
+.watch {
+	background: #AC241B;
+	border-radius: 20px;
+	width: 185px;
+	height: 60px;
+	color: #fff;
+	font-family: Nosifer Caps;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 304px 0px 0px 71px;
+}
+
